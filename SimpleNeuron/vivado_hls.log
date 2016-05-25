@@ -1,0 +1,54 @@
+@I [LIC-101] Checked out feature [HLS]
+@I [HLS-10] Running 'D:/Xilinx/Vivado_HLS/2014.1/bin/unwrapped/win64.o/vivado_hls.exe'
+            for user 'user' on host 'user-računalo' (Windows NT_amd64 version 6.1) on Wed May 25 15:01:09 +0200 2016
+            in directory 'D:/HLS_Test'
+@I [HLS-10] Opening project 'D:/HLS_Test/tansig'.
+@I [HLS-10] Adding design file 'tansig.c' to the project
+@I [HLS-10] Adding test bench file 'main.c' to the project
+@I [HLS-10] Adding test bench file 'updatelayer.c' to the project
+@I [HLS-10] Opening solution 'D:/HLS_Test/tansig/solution1'.
+@I [SYN-201] Setting up clock 'default' with a period of 10ns.
+@I [HLS-10] Setting target device to 'xc7z020clg484-1'
+@I [SYN-201] Setting up clock 'default' with a period of 10ns.
+@I [HLS-10] Analyzing design file 'tansig.c' ... 
+@I [HLS-10] Validating synthesis directives ...
+@I [HLS-10] Starting code transformations ...
+@I [HLS-10] Checking synthesizability ...
+@I [HLS-111] Elapsed time: 11.28 seconds; current memory usage: 46.6 MB.
+@I [HLS-10] Starting hardware synthesis ...
+@I [HLS-10] Synthesizing 'tansig' ...
+@I [HLS-10] ----------------------------------------------------------------
+@I [HLS-10] -- Scheduling module 'tansig' 
+@I [HLS-10] ----------------------------------------------------------------
+@I [SCHED-11] Starting scheduling ...
+@I [SCHED-11] Finished scheduling.
+@I [HLS-111] Elapsed time: 0.04 seconds; current memory usage: 47.5 MB.
+@I [HLS-10] ----------------------------------------------------------------
+@I [HLS-10] -- Exploring micro-architecture for module 'tansig' 
+@I [HLS-10] ----------------------------------------------------------------
+@I [BIND-100] Starting micro-architecture generation ...
+@I [BIND-101] Performing variable lifetime analysis.
+@I [BIND-101] Exploring resource sharing.
+@I [BIND-101] Binding ...
+@I [BIND-100] Finished micro-architecture generation.
+@I [HLS-111] Elapsed time: 0.03 seconds; current memory usage: 47.4 MB.
+@I [HLS-10] ----------------------------------------------------------------
+@I [HLS-10] -- Generating RTL for module 'tansig' 
+@I [HLS-10] ----------------------------------------------------------------
+@I [RTGEN-500] Setting interface mode on port 'tansig/data' to 'ap_none'.
+@I [RTGEN-500] Setting interface mode on port 'tansig/result' to 'ap_vld'.
+@I [RTGEN-500] Setting interface mode on function 'tansig' to 'ap_ctrl_hs'.
+@I [RTGEN-100] Generating core module 'tansig_dadd_64ns_64ns_64_5_full_dsp': 1 instance(s).
+@I [RTGEN-100] Generating core module 'tansig_ddiv_64ns_64ns_64_31': 1 instance(s).
+@I [RTGEN-100] Generating core module 'tansig_dexp_64ns_64ns_64_18_full_dsp': 1 instance(s).
+@I [RTGEN-100] Generating core module 'tansig_fmul_32ns_32ns_32_4_max_dsp': 1 instance(s).
+@I [RTGEN-100] Generating core module 'tansig_fpext_32ns_64_3': 1 instance(s).
+@I [RTGEN-100] Generating core module 'tansig_fptrunc_64ns_32_3': 1 instance(s).
+@I [RTGEN-100] Finished creating RTL model for 'tansig'.
+@I [HLS-111] Elapsed time: 0.04 seconds; current memory usage: 47.4 MB.
+@I [HLS-10] Finished generating all RTL models.
+@I [WSYSC-301] Generating RTL SystemC for 'tansig'.
+@I [WVHDL-304] Generating RTL VHDL for 'tansig'.
+@I [WVLOG-307] Generating RTL Verilog for 'tansig'.
+@I [HLS-112] Total elapsed time: 12.84 seconds; peak memory usage: 47.5 MB.
+@I [LIC-101] Checked in feature [HLS]

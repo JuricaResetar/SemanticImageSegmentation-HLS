@@ -1,0 +1,118 @@
+<profile>
+
+<section name = "Vivado HLS Report for 'tansig'" level="0">
+<item name = "Date">Wed May 25 15:01:20 2016
+</item>
+<item name = "Version">2014.1 (build date: Fri Apr 04 13:20:25 PM 2014)</item>
+<item name = "Project">tansig</item>
+<item name = "Solution">solution1</item>
+<item name = "Product family">zynq zynq_fpv6 </item>
+<item name = "Target device">xc7z020clg484-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing (ns)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="default">10.00, 8.62, 1.25</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency (clock cycles)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">, min, max, min, max, Type</keys>
+<column name="">68, 68, 69, 69, none</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="7">Instance, Module, min, max, min, max, Type</keys>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="5">Name, BRAM_18K, DSP48E, FF, LUT</keys>
+<column name="Expression">-, -, -, -</column>
+<column name="FIFO">-, -, -, -</column>
+<column name="Instance">-, 32, 5576, 8142</column>
+<column name="Memory">-, -, -, -</column>
+<column name="Multiplexer">-, -, -, 128</column>
+<column name="Register">-, -, 295, -</column>
+<specialColumn name="Available">280, 220, 106400, 53200</specialColumn>
+<specialColumn name="Utilization (%)">0, 14, 5, 15</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="6">Instance, Module, BRAM_18K, DSP48E, FF, LUT</keys>
+<column name="tansig_dadd_64ns_64ns_64_5_full_dsp_U3">tansig_dadd_64ns_64ns_64_5_full_dsp, 0, 3, 445, 1149</column>
+<column name="tansig_ddiv_64ns_64ns_64_31_U4">tansig_ddiv_64ns_64ns_64_31, 0, 0, 3211, 3658</column>
+<column name="tansig_dexp_64ns_64ns_64_18_full_dsp_U5">tansig_dexp_64ns_64ns_64_18_full_dsp, 0, 26, 1549, 2599</column>
+<column name="tansig_fmul_32ns_32ns_32_4_max_dsp_U0">tansig_fmul_32ns_32ns_32_4_max_dsp, 0, 3, 143, 321</column>
+<column name="tansig_fpext_32ns_64_3_U2">tansig_fpext_32ns_64_3, 0, 0, 100, 138</column>
+<column name="tansig_fptrunc_64ns_32_3_U1">tansig_fptrunc_64ns_32_3, 0, 0, 128, 277</column>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="7">Memory, Module, BRAM_18K, Words, Bits, Banks, W*Bits*Banks</keys>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="7">Name, BRAM_18K, FF, LUT, Depth, Bits, Size:D*B</keys>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP48E, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+<column name="grp_fu_51_p0">64, 3, 64, 192</column>
+<column name="grp_fu_51_p1">64, 3, 64, 192</column>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+<column name="ap_CS_fsm">7, 0, 7, 0</column>
+<column name="reg_67">64, 0, 64, 0</column>
+<column name="tmp_1_reg_83">64, 0, 64, 0</column>
+<column name="tmp_2_reg_88">64, 0, 64, 0</column>
+<column name="tmp_4_reg_93">64, 0, 64, 0</column>
+<column name="tmp_reg_78">32, 0, 32, 0</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="ap_clk">in, 1, ap_ctrl_hs, tansig, return value</column>
+<column name="ap_rst">in, 1, ap_ctrl_hs, tansig, return value</column>
+<column name="ap_start">in, 1, ap_ctrl_hs, tansig, return value</column>
+<column name="ap_done">out, 1, ap_ctrl_hs, tansig, return value</column>
+<column name="ap_idle">out, 1, ap_ctrl_hs, tansig, return value</column>
+<column name="ap_ready">out, 1, ap_ctrl_hs, tansig, return value</column>
+<column name="data">in, 32, ap_none, data, pointer</column>
+<column name="result">out, 32, ap_vld, result, pointer</column>
+<column name="result_ap_vld">out, 1, ap_vld, result, pointer</column>
+</table>
+</item>
+</section>
+</profile>

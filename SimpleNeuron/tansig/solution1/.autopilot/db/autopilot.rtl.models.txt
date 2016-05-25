@@ -1,0 +1,7 @@
+tansig_fmul_32ns_32ns_32_4_max_dsp
+tansig_fptrunc_64ns_32_3
+tansig_fpext_32ns_64_3
+tansig_dadd_64ns_64ns_64_5_full_dsp
+tansig_ddiv_64ns_64ns_64_31
+tansig_dexp_64ns_64ns_64_18_full_dsp
+tansig

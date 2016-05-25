@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="tansig.c" path="D:\HLS_Test\tansig.c"/>
+  </source>
+  <testbench>
+    <originFiles name="updatelayer.c" path="D:\HLS_Test\updatelayer.c"/>
+    <originFiles name="main.c" path="D:\HLS_Test\main.c"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>
